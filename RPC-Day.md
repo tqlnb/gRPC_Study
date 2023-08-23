@@ -465,6 +465,13 @@ mac    版本
 
   - 关键代码
 
+
+ ```ruby
+      注意: 客户端接收消息返回值是一个Iterator,
+            当服务端responseObserver.onCompleted();时iterator.hasNext()才为false
+ ```
+
+
     ~~~java
     服务端
     public void c2ss(HelloProto.HelloRequest request, StreamObserver<HelloProto.HelloResponse> responseObserver) {
