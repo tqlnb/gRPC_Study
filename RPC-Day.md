@@ -468,7 +468,7 @@ mac    版本
 
  ```ruby
       注意: 客户端接收消息返回值是一个Iterator,
-            当服务端responseObserver.onCompleted();时iterator.hasNext()才为false
+            当服务端responseObserver.onCompleted();时客户端才能拿到Iterator,才能后续处理,要不然一直阻塞
  ```
 
 
