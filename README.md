@@ -1,4 +1,4 @@
 # gRPC_Study
 gRPC学习资料
 
-[RPC-DAY.md](gRPC_Study/master/RPC-DAY.md)
+[RPC-DAY.md](https://github.com/tqlnb/gRPC_Study/blob/master/RPC-Day.md)
